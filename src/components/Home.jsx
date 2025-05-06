@@ -5,8 +5,8 @@ const TRANSITION_DURATION = 1700; // ms — how long your gif should be shown be
 
 // Image paths
 const images = [
-  './wuwuwa.png',
-  './wuwaa.png',
+  'https://raw.githubusercontent.com/angelie-hub/wuwanav/main/src/assets/wuwuwa.png',
+  'https://raw.githubusercontent.com/angelie-hub/wuwanav/main/src/assets/wuwaa.png',
 ];
 
 const Home = () => {
