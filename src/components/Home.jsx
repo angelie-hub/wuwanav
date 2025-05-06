@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logoo from '../../public/wuwaa.png'; 
-import logoo1 from '../../public/wuwuwa.png'; 
+import logoo from '../assets/wuwaa.png'; 
+import logoo1 from '../assets/wuwuwa.png'; 
 
 const TRANSITION_DURATION = 1700; // ms — how long your gif should be shown before navigating
 
