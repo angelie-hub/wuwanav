@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wuwanav/static/css/main.211036c5.css",
-    "main.js": "/wuwanav/static/js/main.3f793717.js",
+    "main.js": "/wuwanav/static/js/main.ba4a91e6.js",
     "static/media/WUWA BG.gif": "/wuwanav/static/media/WUWA BG.cfd6bb259f35afc7960a.gif",
     "static/media/mizuena_xmas.png": "/wuwanav/static/media/mizuena_xmas.d018e0e898d0dab9fefb.png",
     "static/media/artportfolio.png": "/wuwanav/static/media/artportfolio.2efeee2b15c516cbe885.png",
@@ -24,10 +24,10 @@
     "static/media/encore.gif": "/wuwanav/static/media/encore.ba310bae006ab3138e5a.gif",
     "index.html": "/wuwanav/index.html",
     "main.211036c5.css.map": "/wuwanav/static/css/main.211036c5.css.map",
-    "main.3f793717.js.map": "/wuwanav/static/js/main.3f793717.js.map"
+    "main.ba4a91e6.js.map": "/wuwanav/static/js/main.ba4a91e6.js.map"
   },
   "entrypoints": [
     "static/css/main.211036c5.css",
-    "static/js/main.3f793717.js"
+    "static/js/main.ba4a91e6.js"
   ]
 }
