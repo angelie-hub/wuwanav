@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wuwanav/static/css/main.211036c5.css",
-    "main.js": "/wuwanav/static/js/main.a4782be4.js",
+    "main.js": "/wuwanav/static/js/main.3f793717.js",
     "static/media/WUWA BG.gif": "/wuwanav/static/media/WUWA BG.cfd6bb259f35afc7960a.gif",
     "static/media/mizuena_xmas.png": "/wuwanav/static/media/mizuena_xmas.d018e0e898d0dab9fefb.png",
     "static/media/artportfolio.png": "/wuwanav/static/media/artportfolio.2efeee2b15c516cbe885.png",
@@ -20,13 +20,14 @@
     "static/media/mizuena1.png": "/wuwanav/static/media/mizuena1.d4175e23fb4feed8a43f.png",
     "static/media/sofi.png": "/wuwanav/static/media/sofi.44882b000467efb05254.png",
     "static/media/enaNY.png": "/wuwanav/static/media/enaNY.8951eca20ad3964e001e.png",
+    "static/media/wuwa.png": "/wuwanav/static/media/wuwa.4c1551437f41f3428a6f.png",
     "static/media/encore.gif": "/wuwanav/static/media/encore.ba310bae006ab3138e5a.gif",
     "index.html": "/wuwanav/index.html",
     "main.211036c5.css.map": "/wuwanav/static/css/main.211036c5.css.map",
-    "main.a4782be4.js.map": "/wuwanav/static/js/main.a4782be4.js.map"
+    "main.3f793717.js.map": "/wuwanav/static/js/main.3f793717.js.map"
   },
   "entrypoints": [
     "static/css/main.211036c5.css",
-    "static/js/main.a4782be4.js"
+    "static/js/main.3f793717.js"
   ]
 }
