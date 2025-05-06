@@ -44,7 +44,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="navbar">
         <img
-          src={logo}
+          src="https://raw.githubusercontent.com/angelie-hub/wuwanav/main/src/assets/wuwa.png"
           alt="logo"
           className="wuwalogo"
           onClick={handleLogoClick}
