@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import logoo from '../public/wuwuwa.png'; 
+import logoo1 from '../public/wuwuwa.png'; 
 
 const TRANSITION_DURATION = 1700; // ms — how long your gif should be shown before navigating
 
 // Image paths
 const images = [
-  'https://raw.githubusercontent.com/angelie-hub/wuwanav/main/src/assets/wuwuwa.png',
-  'https://raw.githubusercontent.com/angelie-hub/wuwanav/main/src/assets/wuwaa.png',
+  {logoo},
+  {logoo1},
 ];
 
 const Home = () => {
