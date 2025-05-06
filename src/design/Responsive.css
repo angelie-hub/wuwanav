@@ -1,0 +1,592 @@
+/*  ===========1200PX SIZE=========== */
+
+@media (max-width: 1200px) {
+    .contact-container {
+        width: 160vh;
+        height: 70vh;
+        padding: 30px;
+    }
+    
+    .portfolio-title {
+        font-size: 34px;
+    }
+    
+    .links {
+        gap: 25px;
+    }
+    
+    .links a {
+        font-size: 22px;
+    }
+    
+    .social-icon {
+        width: 36px;
+        height: 36px;
+    }
+    .gallery-top-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .featured-image {
+        height: 400px;
+    }
+    
+    .recent-image {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .gallery-thumbnail {
+        height: 250px; 
+    }
+    .about-container {
+      padding: 30px;
+      margin: 30px auto;
+    }
+  
+    .about-description h2 {
+      font-size: 36px;
+    }
+  
+    .about-description p {
+      font-size: 18px;
+    }
+  
+    .magic-card {
+      width: 180px;
+      height: 320px;
+    }
+  
+    .magic-card.middle {
+      width: 220px;
+      height: 380px;
+    }
+    .projects-container {
+        padding: 80px;
+        margin: 40px;
+    }
+    
+    .project-card {
+        width: 400px;
+         height: 250px;
+    }
+}
+
+/* ============992PX================ */
+    @media (max-width: 992px) {
+    .contact-container {
+        width: 130vh;
+        height: 65vh;
+        padding: 30px;
+    }
+        
+    .portfolio-title {
+        font-size: 30px;
+        }
+        
+    .links {
+        gap: 20px;
+    }
+        
+    .links a {
+        font-size: 20px;
+    }
+        
+    .social-icon {
+        width: 34px;
+        height: 34px;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .featured-image {
+        height: 350px;
+    }
+        
+    .recent-image {
+        height: 180px;
+    }
+        
+    .gallery-thumbnail {
+        height: 220px;
+    }
+        
+    .image-info h3 {
+        font-size: 22px;
+    }
+        
+    .image-info p {
+        font-size: 16px;
+     }
+    .projects-container {
+        padding: 60px;
+        margin: 30px;
+    }
+    
+    .project-card {
+        width: 100%;
+        height: 230px;
+    }
+    
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .about-description {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .card-section {
+        flex-wrap: wrap;
+    }
+    
+    .magic-card {
+        width: 160px;
+        height: 300px;
+    }
+    
+    .magic-card.middle {
+        width: 200px;
+        height: 350px;
+    }
+
+    .projects-container {
+      padding: 60px;
+      margin: 30px;
+    }
+  
+    .project-card {
+      width: 100%;
+      height: 230px;
+    }
+  
+    .projects-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+  }
+
+/*===================768PX=================== */
+  
+  @media (max-width: 768px) {
+    .contact-container {
+        width: 100%;
+        height: 80vh;
+        padding: 25px;
+        margin: 30px auto;
+    }
+    
+    .portfolio-title {
+        font-size: 26px;
+    }
+    
+    .links {
+        gap: 18px;
+    }
+    
+    .links a {
+        font-size: 18px;
+    }
+    
+    .social-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .gallery-page {
+        padding: 30px;
+        margin: 15px;
+    }
+    
+    .gallery-title {
+        font-size: 24px;
+    }
+    
+    .gallery-description {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    .featured-image {
+        height: 300px;
+    }
+    
+    .recent-image {
+        height: 160px;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .gallery-thumbnail {
+        height: 180px;
+    }
+    
+    .image-info h3 {
+        font-size: 20px;
+    }
+    
+    .image-info p {
+        font-size: 14px;
+    }
+    
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 12px;
+        font-size: 20px;
+    }
+    .about-container {
+        padding: 20px;
+        margin: 20px auto;
+    }
+    
+    .about-description h2 {
+        font-size: 30px;
+    }
+    
+    .about-description p {
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    .card-section {
+        gap: 15px;
+    }
+    
+    .magic-card {
+        width: 140px;
+        height: 250px;
+    }
+    
+    .magic-card.middle {
+        width: 180px;
+        height: 300px;
+    }
+    
+    .arrow-button {
+        font-size: 30px;
+    }
+    .projects-container {
+        padding: 40px;
+        margin: 20px;
+    }
+    
+    .projects-heading {
+        font-size: 20px;
+    }
+    
+    .project-card {
+        height: 200px;
+    }
+ 
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 1000;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+    }
+  
+/* ============576PX================ */
+    @media (max-width: 576px) {
+    .contact-container {
+        padding: 20px;
+        margin: 20px auto;
+        height: 70vh;
+    }
+        
+    .portfolio-title {
+        font-size: 24px;
+    }
+        
+    .links {
+        gap: 15px;
+    }
+        
+    .links a {
+        font-size: 16px;
+    }
+        
+    .social-icon {
+        width: 28px;
+        height: 28px;
+    }
+    .gallery-grid {
+        grid-template-columns: 1fr; 
+    }
+    .gallery-title {
+        font-size: 22px;
+    }
+        
+    .gallery-description {
+        font-size: 14px;
+    }
+        
+    .featured-image {
+        height: 250px;
+    }
+        
+    .recent-image {
+        width: 100%;
+        height: 180px;
+    }
+    .recent-container {
+        flex: 1 1 100%;
+    }
+        
+    .gallery-thumbnail {
+        height: 160px;
+    }
+        
+    .image-info h3 {
+        font-size: 18px;
+    }
+        
+    .image-info p {
+        font-size: 13px;
+    }
+        
+    .scroll-to-top {
+        padding: 8px 10px;
+        font-size: 18px;
+    }
+    .about-description h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+      
+    .about-description p {
+        font-size: 15px;
+        padding: 20px;
+    }
+      
+    .card-section {
+        gap: 10px;
+    }
+      
+    .magic-card {
+        width: 120px;
+        height: 220px;
+    }
+      
+    .magic-card.middle {
+        width: 160px;
+        height: 270px;
+    }
+      
+    .arrow-button {
+        font-size: 28px;
+    }
+}
+
+/* ============480PX================ */
+  @media (max-width: 480px) {
+    .contact-container {
+        padding: 18px;
+        margin: 15px auto;
+        height: 70vh;
+    }
+    
+    .portfolio-title {
+        font-size: 22px;
+    }
+    
+    .links {
+        gap: 12px;
+    }
+    
+    .links a {
+        font-size: 15px;
+    }
+    
+    .social-icon {
+        width: 26px;
+        height: 26px;
+    }
+    .projects-container {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    .projects-heading {
+      font-size: 18px;
+    }
+  
+    .projects-grid {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .project-card {
+      height: 180px;
+    }
+}
+
+/* ============320PX================ */
+@media (max-width: 320px) {
+    .contact-container {
+        padding: 15px;
+        margin: 10px auto;
+        height: 70vh;
+    }
+    
+    .portfolio-title {
+        font-size: 20px;
+    }
+    
+    .links {
+        gap: 10px;
+    }
+    
+    .links a {
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+    .social-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+    .gallery-grid {
+      grid-template-columns: 1fr; 
+    }
+  
+    .gallery-title {
+      font-size: 20px;
+    }
+  
+    .gallery-description {
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+  
+    .featured-image {
+      height: 220px;
+    }
+  
+    .recent-image {
+      width: 100%;
+      height: 160px;
+    }
+  
+    .gallery-thumbnail {
+      height: 140px;
+    }
+  
+    .image-info h3 {
+      font-size: 16px;
+    }
+  
+    .image-info p {
+      font-size: 12px;
+    }
+  
+    .scroll-to-top {
+      padding: 6px 8px;
+      font-size: 16px;
+    }
+  
+    .about-container {
+      padding: 15px;
+      margin: 15px auto;
+    }
+  
+    .about-description h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+  
+    .about-description p {
+      font-size: 14px;
+      padding: 15px;
+    }
+  
+    .card-section {
+      gap: 8px;
+    }
+  
+    .magic-card {
+      width: 100px;
+      height: 200px;
+    }
+  
+    .magic-card.middle {
+      width: 140px;
+      height: 250px;
+    }
+  
+    .arrow-button {
+      font-size: 26px;
+    }
+  
+    .projects-container {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    .projects-heading {
+      font-size: 16px;
+    }
+  
+    .projects-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .project-card {
+      height: 160px;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 15px;
+      background: rgba(0, 0, 0, 0.95);
+      padding: 15px;
+      border-radius: 8px;
+      z-index: 1000;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .separator {
+      display: none;
+    }
+  
+    .burger {
+      display: flex;
+    }
+  }
+  
