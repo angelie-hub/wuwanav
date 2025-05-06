@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wuwanav/static/css/main.211036c5.css",
-    "main.js": "/wuwanav/static/js/main.2e8813eb.js",
+    "main.js": "/wuwanav/static/js/main.819b221f.js",
     "static/media/WUWA BG.gif": "/wuwanav/static/media/WUWA BG.cfd6bb259f35afc7960a.gif",
     "static/media/mizuena_xmas.png": "/wuwanav/static/media/mizuena_xmas.d018e0e898d0dab9fefb.png",
     "static/media/artportfolio.png": "/wuwanav/static/media/artportfolio.2efeee2b15c516cbe885.png",
@@ -18,16 +18,18 @@
     "static/media/studentenrollment.png": "/wuwanav/static/media/studentenrollment.932b2e45c276a866e83e.png",
     "static/media/Signika-VariableFont_GRAD,wght.ttf": "/wuwanav/static/media/Signika-VariableFont_GRAD,wght.26fb9c4e91a558eb79b1.ttf",
     "static/media/mizuena1.png": "/wuwanav/static/media/mizuena1.d4175e23fb4feed8a43f.png",
+    "static/media/wuwuwa.png": "/wuwanav/static/media/wuwuwa.1dcdea4fe7e46cc23f02.png",
     "static/media/sofi.png": "/wuwanav/static/media/sofi.44882b000467efb05254.png",
     "static/media/enaNY.png": "/wuwanav/static/media/enaNY.8951eca20ad3964e001e.png",
+    "static/media/wuwaa.png": "/wuwanav/static/media/wuwaa.f6fd680bca7fc9fe23c1.png",
     "static/media/wuwa.png": "/wuwanav/static/media/wuwa.4c1551437f41f3428a6f.png",
     "static/media/encore.gif": "/wuwanav/static/media/encore.ba310bae006ab3138e5a.gif",
     "index.html": "/wuwanav/index.html",
     "main.211036c5.css.map": "/wuwanav/static/css/main.211036c5.css.map",
-    "main.2e8813eb.js.map": "/wuwanav/static/js/main.2e8813eb.js.map"
+    "main.819b221f.js.map": "/wuwanav/static/js/main.819b221f.js.map"
   },
   "entrypoints": [
     "static/css/main.211036c5.css",
-    "static/js/main.2e8813eb.js"
+    "static/js/main.819b221f.js"
   ]
 }
