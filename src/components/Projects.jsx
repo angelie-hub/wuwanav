@@ -6,7 +6,7 @@ import epic from '../assets/epic.png';
 import se from '../assets/studentenrollment.png';
 import sp from '../assets/finalsproj.png';
 
-const hoverSound = new Audio(process.env.PUBLIC_URL + "/hover.wav");
+const hoverSound = new Audio(process.env.PUBLIC_URL + "../assets/hover.wav");
 const clickSound = new Audio(process.env.PUBLIC_URL + "/transition.wav");
 
 // Preload sounds to ensure they are ready for playback

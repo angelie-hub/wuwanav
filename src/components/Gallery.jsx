@@ -9,8 +9,8 @@ import enany from '../assets/enaNY.png';
 import mizuena from '../assets/mizuena1.png';
 import shinonomeena from '../assets/shinonomeena.png';
 
-const hoverSound = new Audio(process.env.PUBLIC_URL + "/hover.wav");
-const clickSound = new Audio(process.env.PUBLIC_URL + "/transition.wav");
+const hoverSound = new Audio(process.env.PUBLIC_URL + "../assets/hover.wav");
+const clickSound = new Audio(process.env.PUBLIC_URL + "../assets/click.wav");
 
 hoverSound.preload = 'auto';
 clickSound.preload = 'auto';
@@ -23,7 +23,7 @@ const images = [
   { src: sofi, title: 'Sofi', description: 'This drawing is an entry for an art contest with the character, Sofi.' },
   { src: what, title: 'Pan4`s Artstlye Study', description: 'This is an OC created with an attempt to recreate Pan4 - Lout of Count`s Family - artist.' },
   { src: enany, title: 'Shinonome Ena New Year Art', description: 'This is a drawing I made for New Year.' },
-  { src: mizuena, title: 'Mizuena', description: 'A fanart for project sekai`s 5th Akyama Mizuki`s focused event.' },
+  { src: mizuena, title: 'Mizuena', description: 'A fanart for project sekai`s 5th Akiyama Mizuki`s focused event.' },
   { src: shinonomeena, title: 'Shinonome Ena Hermit', description: 'A Shinonome Ena Hermit Card and event Fanart.' },
 ];
 

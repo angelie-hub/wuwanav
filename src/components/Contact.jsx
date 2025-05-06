@@ -1,8 +1,8 @@
 import React from 'react';
 import '../design/Contact.css';
 
-const hoverSound = new Audio(process.env.PUBLIC_URL + "/hover.wav");
-const clickSound = new Audio(process.env.PUBLIC_URL + "/transition.wav");
+const hoverSound = new Audio(process.env.PUBLIC_URL + "../assets/hover.wav");
+const clickSound = new Audio(process.env.PUBLIC_URL + "../assets/click.wav");
 
 hoverSound.preload = 'auto';
 clickSound.preload = 'auto';
