@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../assets/wuwa.png'; 
 
 const items = [
   { name: 'HOME', path: '/' },
@@ -43,7 +44,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="navbar">
         <img
-          src="/wuwa.png"
+          src={logo}
           alt="logo"
           className="wuwalogo"
           onClick={handleLogoClick}
