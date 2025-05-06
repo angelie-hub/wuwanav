@@ -7,8 +7,8 @@ const TRANSITION_DURATION = 1700; // ms — how long your gif should be shown be
 
 // Image paths
 const images = [
-  {logoo},
-  {logoo1},
+  logoo,
+  logoo1,
 ];
 
 const Home = () => {
