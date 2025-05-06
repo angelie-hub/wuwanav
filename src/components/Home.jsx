@@ -17,7 +17,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    const transitionSound = new Audio('../assets/transition.wav');
+    const transitionSound = new Audio('/transition.wav');
     transitionSound.play();
   
     setIsTransitioning(true);

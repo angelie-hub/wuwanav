@@ -24,8 +24,8 @@ const cardTitles = ["PROJECTS", "GALLERY", "CONTACTS"];
 export default function About() {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const hoverSound = new Audio(process.env.PUBLIC_URL + "../assets/hover.wav");
-  const clickSound = new Audio(process.env.PUBLIC_URL + "../assets/click.wav");
+  const hoverSound = new Audio(process.env.PUBLIC_URL + "/hover.wav");
+  const clickSound = new Audio(process.env.PUBLIC_URL + "/transition.wav");
 
 
   useEffect(() => {

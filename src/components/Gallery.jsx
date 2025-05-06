@@ -9,8 +9,8 @@ import enany from '../assets/enaNY.png';
 import mizuena from '../assets/mizuena1.png';
 import shinonomeena from '../assets/shinonomeena.png';
 
-const hoverSound = new Audio(process.env.PUBLIC_URL + "../assets/hover.wav");
-const clickSound = new Audio(process.env.PUBLIC_URL + "../assets/click.wav");
+const hoverSound = new Audio(process.env.PUBLIC_URL + "/hover.wav");
+const clickSound = new Audio(process.env.PUBLIC_URL + "/transition.wav");
 
 hoverSound.preload = 'auto';
 clickSound.preload = 'auto';

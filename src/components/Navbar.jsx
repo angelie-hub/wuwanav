@@ -16,7 +16,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false); // 👈 new state for burger
 
   const handleNavClick = (name) => {
-    const clickSound = new Audio('../assets/click.wav');
+    const clickSound = new Audio('/click.wav');
     clickSound.play();
 
     setClickedLink(name);
@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   const handleLogoClick = () => {
-    const audio = new Audio('../assets/jumpscare.mp3');
+    const audio = new Audio('/jumpscare.mp3');
     audio.play();
 
     setShowJumpscare(true);
