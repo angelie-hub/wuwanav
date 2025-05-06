@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';  // ⬅️ added Navigate
 import './design/Home.css';
 import './design/About.css';
 import './design/Main.css';
@@ -41,9 +41,10 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        
+        {/* ⬇️ catch-all: redirects any unknown path to Home */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-
-
       <Footer />
     </>
   );
